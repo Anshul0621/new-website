@@ -1,1 +1,32 @@
-@import "tailwindcss";
+@font-face {
+    font-family: roboto;
+    src: url('./assets/Roboto_SemiCondensed-Medium.ttf');
+}
+@font-face {
+    font-family: satoshi;
+    src: url('./assets/66aa728085dec3390cb7f058_Satoshi-Variable.ttf');
+}
+
+
+
+@import 'tailwindcss';
+
+@theme{
+    --font-roboto:roboto,'sans-serif';
+    --font-satoshi:satoshi,'sans-serif';
+}
+
+
+/* .marqueeeeee{
+    animation: animatedmarque 20s linear infinite;
+}
+@keyframes animatedmarque{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+ */
